@@ -40,8 +40,21 @@ function displayDate(){
         <div class="container">
             <div class="blurb">
                 <h1>我是PKU一年级学生郭一定，是你们最好的老大哥！</h1>
-		    <button type="button" onclick="alert('听不见！！重来！！')">点击来做自我介绍</button>
-                              <hr/>
+		    <button onclick="myFunction()">做自我介绍，从你那儿开始</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("把你原来的学校姓名介绍一下！")) {
+    txt = "好！很有精神！";
+  } else {
+    txt = "这么小声还想开军舰！";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
 		    <p><br><br><br></br></p>
                 <p>PKU萌新，学习HTML中。如有问题或建议请联系我。</p>
                               <hr/>
