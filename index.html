@@ -6,16 +6,22 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
     <body background="/pictures/timg.jpg"/>
-	<script language="javascript">
-		confirm("你是否已满18岁？"); 
-		if (confirm("你是否已满18岁？")) {
-    txt = "欢迎";
+<button onclick="myFunction()">身份验证</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("你是否已满十八岁？")) {
+    txt = "欢迎你";
   } else {
-    txt = "FBI Warning";
+    txt = "请立刻关闭此页面";
   }
-		document.getElementById("demo").innerHTML = txt;
+  document.getElementById("demo").innerHTML = txt;
 }
-	</script> 
+</script>
+
     <h3> 精 苏 狂 喜↓</h3>
     <audio controls="controls">
         <source src="/music/俄罗斯军乐团 - Всё выше.mp3"/>
