@@ -8,6 +8,13 @@
     <body background="/pictures/timg.jpg"/>
 	<script language="javascript">
 		confirm("你是否已满18岁？"); 
+		if (confirm("你是否已满18岁？")) {
+    txt = "欢迎";
+  } else {
+    txt = "FBI Warning";
+  }
+		document.getElementById("demo").innerHTML = txt;
+}
 	</script> 
     <h3> 精 苏 狂 喜↓</h3>
     <audio controls="controls">
