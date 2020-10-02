@@ -6,21 +6,7 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
     <body background="/pictures/timg (1).jpg"/>
-<button onclick="myFunction()">身份验证</button>
 
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var txt;
-  if (confirm("你是否已满十八岁？")) {
-    txt = "欢迎你";
-  } else {
-    txt = "请立刻关闭此页面";
-  }
-  document.getElementById("demo").innerHTML = txt;
-}
-</script>
 <hr/>
     <h3> 玉 音 放 送</h3>
     <audio controls="controls">
@@ -40,19 +26,19 @@ function displayDate(){
         <div class="container">
             <div class="blurb">
                 <h1>我是PKU一年级学生郭一定，是你们最好的老大哥！</h1>
-		    <button onclick="myFunction()">做自我介绍，从你那儿开始</button>
+		    <button onclick="myFunction()">做自我介绍，从你那儿，开始！</button>
 
-<p id="shabi2"></p>
+<p id="demo"></p>
 
 <script>
 function myFunction() {
-  var txt2;
+  var txt;
   if (confirm("把你原来的学校姓名介绍一下！")) {
-    txt2 = "好！很有精神！";
+    txt = "好！很有精神！";
   } else {
-    txt2 = "这么小声还想开军舰！";
+    txt = "这么小声还想开军舰！重来！";
   }
-  document.getElementById("shabi2").innerHTML = txt2;
+  document.getElementById("demo").innerHTML = txt;
 }
 </script>
 		    <p><br><br><br></br></p>
