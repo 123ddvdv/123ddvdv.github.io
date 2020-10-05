@@ -42,5 +42,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
+body
+{
+background-image:url('gradient2.png');
+background-repeat:repeat-x;
+}
 
