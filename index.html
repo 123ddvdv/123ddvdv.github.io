@@ -25,24 +25,14 @@ window.alert("欢迎来到我的妙妙屋");
     </audio>
 	<p>兄啊为什么你的网站这么臭啊</p>
 	<hr/>
-	    <p id="time">TIME</p>
-	    <button onclick="Function1()">现在的时间是？</button>
-	    <script>
-		        var i=1
-		    function Function1(){
-			    i++;
-			    if（i%2==0） document.getElementById("time") .innerHTML=Date();
-		    }else{
-			    document.getElementById("time") .innerHTML="现在的时间是？"
-	    </script>
-			
+<button onclick="this.innerHTML=Date()">现在的时间是?</button>
 			
 			    
 
         <div class="container">
             <div class="blurb">
                 <h1>我是PKU一年级学生郭一定，是你们最好的老大哥！</h1>
-		    <button onclick="myFunction()">做自我介绍，从你那儿，开始！</button>
+		    <button onmouseover="myFunction()">做自我介绍，从你那儿，开始！</button>
 
 <p id="demo"></p>
 
