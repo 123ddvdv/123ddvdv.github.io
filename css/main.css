@@ -40,3 +40,5 @@ ul.posts li {
     list-style: none;
 }
 
+#personal {
+    border-left-style:solid red;
