@@ -1,7 +1,6 @@
 h1,h2,h3,h4,h5,h6{
     font-style:italic;
     font-weight:bold;
-     text-shadow: 5px 5px 5px #FFFF33;
 }
 body {
     margin: 60px auto;
