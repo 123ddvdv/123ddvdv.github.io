@@ -40,6 +40,6 @@ ul.posts li {
     list-style: none;
 }
 
-#personal {
+.description {
     border-left-style:solid red;
 }
