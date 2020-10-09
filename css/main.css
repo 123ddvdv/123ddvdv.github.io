@@ -42,7 +42,7 @@ ul.posts li {
 
 #time
 {
-    border: 3px ridge gold;
+    border: 3px dashed red;
     padding: 10px;
     border-radius: 25px;
 }
